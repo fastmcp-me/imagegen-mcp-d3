@@ -1,6 +1,6 @@
 {
   "name": "@chrisurf/imagegen-mcp-d3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Model Context Protocol server for DALL-E 3 image generation",
   "type": "module",
   "main": "dist/index.js",
@@ -12,6 +12,9 @@
     "README.md",
     "LICENSE"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
