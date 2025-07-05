@@ -1,6 +1,6 @@
 {
-  "name": "imagegen-mcp-d3",
-  "version": "1.0.0",
+  "name": "@chrisurf/imagegen-mcp-d3",
+  "version": "1.0.1",
   "description": "Model Context Protocol server for DALL-E 3 image generation",
   "type": "module",
   "main": "dist/index.js",
@@ -19,6 +19,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
+    "test:protocol": "node test-protocol-compliance.js",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
     "typecheck": "tsc --noEmit",
